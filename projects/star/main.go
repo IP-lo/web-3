@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	fmt.Println("Hello, world!!!")
+	var input string
+	fmt.Scan(&input)
+	fmt.Println(strings.Join(strings.Split(input,""),"*"))
 }

@@ -5,7 +5,9 @@ import (
 	"math"
 )
 func main() {
-	fmt.Println(T(1296,6,6))
+	var k, p, v float64
+	fmt.Scan(&k, &p, &v)
+	fmt.Println(T(k,p,v))
 }
 func M(p, v float64) float64{
 	return p * v
